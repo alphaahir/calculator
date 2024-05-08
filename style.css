@@ -1,0 +1,37 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    background-color:lime;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.display {
+    font-size: 24px;
+    background-color: gold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #12f9a4;
+}
